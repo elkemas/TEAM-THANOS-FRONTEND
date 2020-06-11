@@ -1,0 +1,108 @@
+
+body{
+    font: 15px/1.5 Arial, Helvetica, Sans-serif;
+    padding: 0%;
+    margin: auto;
+    background-color: rgb(217, 228, 238);
+}
+
+/*global*/
+.container{
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    color: rgb(41, 41, 136);
+    padding-top: 10px;
+    margin: 10px;
+    min-height: 70px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+header a{
+    color: rgb(41, 41, 136);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+header ul{
+    margin: 9px;
+    padding: 0px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 20px;
+}
+
+header #hotelName{
+    float: left;
+}
+
+header nav{
+    float: right;
+    max-width: 30%;
+}
+
+/*viewspot: image area*/
+
+#viewspot{
+    min-height: 400px;
+    background: url('hotelview.jpg') no-repeat 0;
+    max-width: 100%;
+}
+
+#viewspot h2{
+    color:rgb(41, 41, 136);
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#formArea{
+    color: rgb(41, 41, 136);
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+/*name, email,sub*/
+
+form input{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding-top: 15px;
+    padding: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form input[textarea]{
+   line-height: 100px;
+}
+
+form button{
+    background-color:rgb(41, 41, 136);
+    height: 30px;
+    width: 150px;
+    color: #ffffff;
+}
+
+#googleMap{
+    align-items: center;
+}
+
+#newsletter p{
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+}
